@@ -2,6 +2,12 @@ public class Student {
     String id;
     String name;
 
+    public Student(String village) {
+        this.village = village;
+    }
+
+    String village;
+
     @Override
     public String toString() {
         return "Student{" +
