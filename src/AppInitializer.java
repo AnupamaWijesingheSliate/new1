@@ -12,5 +12,8 @@ public class AppInitializer extends Application {
         Student nadeepa = new Student("Nadeepa", "1");
         System.out.println(nadeepa.name);
 
+        for (int i=0; i>5; i++){
+            System.out.println(nadeepa);
+        }
     }
 }
