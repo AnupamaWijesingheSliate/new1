@@ -9,6 +9,7 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-
+        Student nadeepa = new Student("Nadeepa", "1");
+        System.out.println(nadeepa.name);
     }
 }
